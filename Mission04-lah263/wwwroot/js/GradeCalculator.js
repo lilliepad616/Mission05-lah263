@@ -29,6 +29,5 @@
         letter_grade = "E"
     }
     //print out the percentage and letter grade
-    $("#final-grade").html("Final Percentage: " + Math.ceil(final_grade) + "%");
-    $("#letter-grade").html("Letter Grade: " + letter_grade);
+    alert("Final Percentage: " + Math.ceil(final_grade) + "%\nLetter Grade: " + letter_grade);
 })

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!--An icon for the website-->
+    <link rel="shortcut icon" type="image/x-icon" href="~/party-popper_1f389.png" />
+    <!--Webpage Title-->
+    <title>@ViewData["Title"] Mission 5</title>
+    <!--Import Bootstrap-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Import my own styles-->
+    <link href="~/css/my-styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Project" asp-action="Index">Home</a><br />
+        <a asp-controller="Project" asp-action="GradeCalculator">Grade Calculator</a>
+    </nav>
+    <br /><br />
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
